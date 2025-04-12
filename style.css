@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #b7a2bd;
+    background-color: #bda1c5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ body {
 }
 
 .social-icons {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     gap: 30px;
 }
