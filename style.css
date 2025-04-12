@@ -7,10 +7,39 @@
 
 body {
     background-color: #bda1c5;
+    min-height: 100vh;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-icons button {
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.header-icons button:hover {
+    background-color: #3d3c3c;
+    transition: background-color 0.3s;
+}
+
+.header-icons button svg {
+    fill: #272626;
+    width: 24px;
+    height: 22px;
+}
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .profile-card {
@@ -65,4 +94,125 @@ body {
     width: 32px;
     height: 32px;
     fill: #f2f2f2;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: #fff;
+    color: #333;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+#qr-bank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.qr-partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.qr-partner img {
+    height: 30px;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #f2f2f2;
+}
+
+.qr-code:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.btn-convert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: none;
+}
+
+.btn-convert button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-convert button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s;
+}
+
+.qr-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#notis hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+/* CUSTOM CSS */
+.text-warning {
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }

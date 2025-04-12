@@ -7,124 +7,222 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="profile-card">
-    <div class="profile-image">
-        <img src="https://scontent.fhan11-1.fna.fbcdn.net/v/t39.30808-6/287823215_1153359881910142_809257782321719307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGLte_XzAjT2_zZZgfOBsInJRTUcYeaECUlFNRxh5oQJYETij6e75nFEPwRnxTwaSvxBw5Bw0V5qP09sRBMQIpp&_nc_ohc=CKTA4bZXPAYQ7kNvwEk7h2x&_nc_oc=AdkDfUZxuQjrGFzRwg9DwYnZDdufSotaGkWJ-PYpiCBdv6xK4DgVoeWPvwgUdF7WBsM&_nc_zt=23&_nc_ht=scontent.fhan11-1.fna&_nc_gid=S6buDpwCNnSkyUz_ogr6Lw&oh=00_AfHUtIWkwuWWM1MNxqseVckvZEzFXkHcMiojJb0qQRp3-A&oe=67FEBD4D"
-             alt="Nguyễn Ninh">
+    <header>
+        <div class="header-icons">
+            <div class="header-icon">
+                <button id="btn-bank">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="32" 
+                        height="32" 
+                        viewBox="0 0 24 24" 
+                        fill="none">
+                        <path d="M21 11.75H3c-.96 0-1.75-.79-1.75-1.75V6.68c0-.68.47-1.37 1.1-1.62l9-3.6c.38-.15.92-.15 1.3 0l9 3.6c.63.25 1.1.95 1.1 1.62V10c0 .96-.79 1.75-1.75 1.75Zm-9-8.91c-.04 0-.08 0-.1.01l-8.99 3.6c-.06.03-.16.16-.16.23V10c0 .14.11.25.25.25h18c.14 0 .25-.11.25-.25V6.68c0-.07-.09-.2-.16-.23l-9-3.6c-.02-.01-.05-.01-.09-.01ZM22 22.75H2c-.41 0-.75-.34-.75-.75v-3c0-.96.79-1.75 1.75-1.75h18c.96 0 1.75.79 1.75 1.75v3c0 .41-.34.75-.75.75Zm-19.25-1.5h18.5V19c0-.14-.11-.25-.25-.25H3c-.14 0-.25.11-.25.25v2.25Z" 
+                            fill="#FFF">
+                        </path>
+                        <path d="M4 18.75c-.41 0-.75-.34-.75-.75v-7c0-.41.34-.75.75-.75s.75.34.75.75v7c0 .41-.34.75-.75.75ZM8 18.75c-.41 0-.75-.34-.75-.75v-7c0-.41.34-.75.75-.75s.75.34.75.75v7c0 .41-.34.75-.75.75ZM12 18.75c-.41 0-.75-.34-.75-.75v-7c0-.41.34-.75.75-.75s.75.34.75.75v7c0 .41-.34.75-.75.75ZM16 18.75c-.41 0-.75-.34-.75-.75v-7c0-.41.34-.75.75-.75s.75.34.75.75v7c0 .41-.34.75-.75.75ZM20 18.75c-.41 0-.75-.34-.75-.75v-7c0-.41.34-.75.75-.75s.75.34.75.75v7c0 .41-.34.75-.75.75ZM23 22.75H1c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h22c.41 0 .75.34.75.75s-.34.75-.75.75ZM12 9.25c-1.24 0-2.25-1.01-2.25-2.25S10.76 4.75 12 4.75 14.25 5.76 14.25 7 13.24 9.25 12 9.25Zm0-3c-.41 0-.75.34-.75.75s.34.75.75.75.75-.34.75-.75-.34-.75-.75-.75Z" 
+                            fill="#FFF">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="header-icon">
+                <button id="btn-noti">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="32" 
+                        height="32" 
+                        viewBox="0 0 24 24" 
+                        fill="none">
+                        <path d="M12 10.521c-.41 0-.75-.34-.75-.75v-3.33c0-.41.34-.75.75-.75s.75.34.75.75v3.33c0 .42-.34.75-.75.75Z" 
+                            fill="#FFF">
+                        </path>
+                        <path d="M12.02 20.348c-2.58 0-5.15-.41-7.6-1.23-.91-.3-1.6-.95-1.9-1.77-.3-.82-.2-1.76.29-2.58l1.27-2.12c.28-.47.53-1.35.53-1.9v-2.1c0-4.09 3.32-7.41 7.41-7.41s7.41 3.32 7.41 7.41v2.1c0 .54.25 1.43.53 1.9l1.27 2.12c.47.78.55 1.71.24 2.56-.31.85-.99 1.5-1.85 1.79-2.45.83-5.02 1.23-7.6 1.23Zm0-17.6c-3.26 0-5.91 2.65-5.91 5.91v2.1c0 .81-.32 1.98-.74 2.67l-1.27 2.13c-.26.43-.32.89-.17 1.29s.49.7.97.86c4.6 1.53 9.66 1.53 14.26 0 .43-.14.76-.46.91-.88.16-.42.11-.88-.12-1.27l-1.27-2.12c-.42-.69-.74-1.86-.74-2.67v-2.1c-.01-3.27-2.66-5.92-5.92-5.92Z" 
+                            fill="#FFF">
+                        </path>
+                        <path d="M12 22.9c-1.07 0-2.12-.44-2.88-1.2-.76-.76-1.2-1.81-1.2-2.88h1.5c0 .68.28 1.34.76 1.82s1.14.76 1.82.76c1.42 0 2.58-1.16 2.58-2.58h1.5c0 2.25-1.83 4.08-4.08 4.08Z" 
+                            fill="#FFF">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="profile-card">
+            <div class="profile-image">
+                <img src="https://scontent.fhan11-1.fna.fbcdn.net/v/t39.30808-6/287823215_1153359881910142_809257782321719307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGLte_XzAjT2_zZZgfOBsInJRTUcYeaECUlFNRxh5oQJYETij6e75nFEPwRnxTwaSvxBw5Bw0V5qP09sRBMQIpp&_nc_ohc=CKTA4bZXPAYQ7kNvwEk7h2x&_nc_oc=AdkDfUZxuQjrGFzRwg9DwYnZDdufSotaGkWJ-PYpiCBdv6xK4DgVoeWPvwgUdF7WBsM&_nc_zt=23&_nc_ht=scontent.fhan11-1.fna&_nc_gid=S6buDpwCNnSkyUz_ogr6Lw&oh=00_AfHUtIWkwuWWM1MNxqseVckvZEzFXkHcMiojJb0qQRp3-A&oe=67FEBD4D"
+                    alt="Nguyễn Ninh">
+            </div>
+
+            <h1 class="profile-name">Nguyễn Ninh (ko)</h1>
+
+            <p class="profile-bio">
+                Với 20 tuổi tràn đầy nhiệt huyết, tôi đang theo đuổi đam mê lập trình
+            </p>
+
+            <div class="profile-socials">
+                <a class="btn-icon"
+                title="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/nguyenninh3324"
+                aria-label="Facebook">
+                    <svg enable-background="new 0 0 24 24"
+                        viewBox="0 0 24 24"
+                        class="sc-gKsewC khwrDj">
+                        <title data-testid="svgTitle"
+                            id="title_0.9886202279435055">
+                            Facebook
+                        </title>
+                        <path d="M23,12A11,11,0,1,0,10.279,22.865h0a11.08,11.08,0,0,0,3.436,0h0A10.952,10.952,0,0,0,23,12ZM10.859,21.935v-6.9a.5.5,0,0,0-.5-.5H8.193V12.5h2.166a.5.5,0,0,0,.5-.5V9.686c0-2.278,1.264-3.585,3.459-3.585a15.392,15.392,0,0,1,1.858.137V7.89h-.824l-.019,0a2,2,0,0,0-2.181,1.735,1.8,1.8,0,0,0-.011.4V12a.5.5,0,0,0,.5.5H15.97l-.312,2.035H13.641a.5.5,0,0,0-.5.5v6.9A10.124,10.124,0,0,1,10.859,21.935Zm3.282-.166V15.535h1.946a.5.5,0,0,0,.5-.425l.465-3.035a.5.5,0,0,0-.494-.575H14.141V10.016a1.267,1.267,0,0,1,.308-.821,1.218,1.218,0,0,1,.9-.3h1.324a.5.5,0,0,0,.5-.5V5.806a.5.5,0,0,0-.42-.494A16.661,16.661,0,0,0,14.325,5.1c-2.754,0-4.466,1.757-4.466,4.585V11.5H7.693a.5.5,0,0,0-.5.5v3.035a.5.5,0,0,0,.5.5H9.859v6.234a10,10,0,1,1,4.282,0Z"></path>
+                    </svg>
+                </a>
+                <a class="btn-icon"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://instagram.com/nguyenninhko"
+                aria-label="Instagram">
+                    <svg enable-background="new 0 0 24 24"
+                        viewBox="0 0 24 24"
+                        class="sc-gKsewC khwrDj">
+                        <title data-testid="svgTitle"
+                            id="title_0.41314096941005296">
+                            Instagram
+                        </title>
+                        <path d="M21.938,7.71a7.329,7.329,0,0,0-.456-2.394,4.615,4.615,0,0,0-1.1-1.694,4.61,4.61,0,0,0-1.7-1.1,7.318,7.318,0,0,0-2.393-.456C15.185,2.012,14.817,2,12,2s-3.185.012-4.29.062a7.329,7.329,0,0,0-2.394.456,4.615,4.615,0,0,0-1.694,1.1,4.61,4.61,0,0,0-1.1,1.7A7.318,7.318,0,0,0,2.062,7.71C2.012,8.814,2,9.182,2,12s.012,3.186.062,4.29a7.329,7.329,0,0,0,.456,2.394,4.615,4.615,0,0,0,1.1,1.694,4.61,4.61,0,0,0,1.7,1.1,7.318,7.318,0,0,0,2.393.456c1.1.05,1.472.062,4.29.062s3.186-.012,4.29-.062a7.329,7.329,0,0,0,2.394-.456,4.9,4.9,0,0,0,2.8-2.8,7.318,7.318,0,0,0,.456-2.393c.05-1.1.062-1.472.062-4.29S21.988,8.814,21.938,7.71Zm-1,8.534a6.351,6.351,0,0,1-.388,2.077,3.9,3.9,0,0,1-2.228,2.229,6.363,6.363,0,0,1-2.078.388C15.159,20.988,14.8,21,12,21s-3.159-.012-4.244-.062a6.351,6.351,0,0,1-2.077-.388,3.627,3.627,0,0,1-1.35-.879,3.631,3.631,0,0,1-.879-1.349,6.363,6.363,0,0,1-.388-2.078C3.012,15.159,3,14.8,3,12s.012-3.159.062-4.244A6.351,6.351,0,0,1,3.45,5.679a3.627,3.627,0,0,1,.879-1.35A3.631,3.631,0,0,1,5.678,3.45a6.363,6.363,0,0,1,2.078-.388C8.842,3.012,9.205,3,12,3s3.158.012,4.244.062a6.351,6.351,0,0,1,2.077.388,3.627,3.627,0,0,1,1.35.879,3.631,3.631,0,0,1,.879,1.349,6.363,6.363,0,0,1,.388,2.078C20.988,8.841,21,9.2,21,12S20.988,15.159,20.938,16.244Z"></path>
+                        <path d="M17.581,5.467a.953.953,0,1,0,.952.952A.954.954,0,0,0,17.581,5.467Z"></path>
+                        <path d="M12,7.073A4.927,4.927,0,1,0,16.927,12,4.932,4.932,0,0,0,12,7.073Zm0,8.854A3.927,3.927,0,1,1,15.927,12,3.932,3.932,0,0,1,12,15.927Z"></path>
+                    </svg>
+                </a>
+                <a class="btn-icon"
+                title="Facebook Messenger"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://zalo.me/0376664344"
+                aria-label="Messenger">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                        x="0px" 
+                        y="0px" 
+                        width="50" 
+                        height="50" 
+                        viewBox="0 0 50 50">
+                        <path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 15.576172 6 C 12.118043 9.5981082 10 14.323627 10 19.5 C 10 24.861353 12.268148 29.748596 15.949219 33.388672 C 15.815412 33.261195 15.988635 33.48288 16.005859 33.875 C 16.023639 34.279773 15.962689 34.835916 15.798828 35.386719 C 15.471108 36.488324 14.785653 37.503741 13.683594 37.871094 A 1.0001 1.0001 0 0 0 13.804688 39.800781 C 16.564391 40.352722 18.51646 39.521812 19.955078 38.861328 C 21.393696 38.200845 22.171033 37.756375 23.625 38.34375 A 1.0001 1.0001 0 0 0 23.636719 38.347656 C 26.359037 39.41176 29.356235 40 32.5 40 C 36.69732 40 40.631169 38.95117 44 37.123047 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 18.496094 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 34.804688 C 40.72689 36.812719 36.774644 38 32.5 38 C 29.610147 38 26.863646 37.459407 24.375 36.488281 C 22.261967 35.634656 20.540725 36.391201 19.121094 37.042969 C 18.352251 37.395952 17.593707 37.689389 16.736328 37.851562 C 17.160501 37.246758 17.523335 36.600775 17.714844 35.957031 C 17.941109 35.196459 18.033096 34.45168 18.003906 33.787109 C 17.974816 33.12484 17.916946 32.518297 17.357422 31.96875 L 17.355469 31.966797 C 14.016928 28.665356 12 24.298743 12 19.5 C 12 14.177406 14.48618 9.3876296 18.496094 6 z M 32.984375 14.986328 A 1.0001 1.0001 0 0 0 32 16 L 32 25 A 1.0001 1.0001 0 1 0 34 25 L 34 16 A 1.0001 1.0001 0 0 0 32.984375 14.986328 z M 18 16 A 1.0001 1.0001 0 1 0 18 18 L 21.197266 18 L 17.152344 24.470703 A 1.0001 1.0001 0 0 0 18 26 L 23 26 A 1.0001 1.0001 0 1 0 23 24 L 19.802734 24 L 23.847656 17.529297 A 1.0001 1.0001 0 0 0 23 16 L 18 16 z M 29.984375 18.986328 A 1.0001 1.0001 0 0 0 29.162109 19.443359 C 28.664523 19.170123 28.103459 19 27.5 19 C 25.578848 19 24 20.578848 24 22.5 C 24 24.421152 25.578848 26 27.5 26 C 28.10285 26 28.662926 25.829365 29.160156 25.556641 A 1.0001 1.0001 0 0 0 31 25 L 31 22.5 L 31 20 A 1.0001 1.0001 0 0 0 29.984375 18.986328 z M 38.5 19 C 36.578848 19 35 20.578848 35 22.5 C 35 24.421152 36.578848 26 38.5 26 C 40.421152 26 42 24.421152 42 22.5 C 42 20.578848 40.421152 19 38.5 19 z M 27.5 21 C 28.340272 21 29 21.659728 29 22.5 C 29 23.340272 28.340272 24 27.5 24 C 26.659728 24 26 23.340272 26 22.5 C 26 21.659728 26.659728 21 27.5 21 z M 38.5 21 C 39.340272 21 40 21.659728 40 22.5 C 40 23.340272 39.340272 24 38.5 24 C 37.659728 24 37 23.340272 37 22.5 C 37 21.659728 37.659728 21 38.5 21 z"></path>
+                    </svg>
+                </a>
+                <a class="btn-icon"
+                    title="TikTok" 
+                    data-testid="SocialIcon" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://tiktok.com/@nguyenninh.ko" 
+                    aria-label="TikTok">
+                    <svg enable-background="new 0 0 24 24" 
+                        viewBox="0 0 24 24" 
+                        class="sc-gKsewC khwrDj">
+                        <title data-testid="svgTitle" 
+                            id="title_0.10661870557275455">
+                            TikTok
+                        </title>
+                        <path d="M9.37,23.5a7.468,7.468,0,0,1,0-14.936.537.537,0,0,1,.538.5v3.8a.542.542,0,0,1-.5.5,2.671,2.671,0,1,0,2.645,2.669.432.432,0,0,1,0-.05V1a.5.5,0,0,1,.5-.5h3.787a.5.5,0,0,1,.5.5A4.759,4.759,0,0,0,21.59,5.76a.5.5,0,0,1,.5.5L22.1,10a.533.533,0,0,1-.519.515,9.427,9.427,0,0,1-4.741-1.268v6.789A7.476,7.476,0,0,1,9.37,23.5ZM8.908,9.585a6.466,6.466,0,1,0,6.93,6.447V8.326a.5.5,0,0,1,.791-.407A8.441,8.441,0,0,0,21.1,9.5l-.006-2.76A5.761,5.761,0,0,1,15.859,1.5H13.051V16.032a.458.458,0,0,1,0,.053,3.672,3.672,0,1,1-4.14-3.695Z"></path>
+                    </svg>
+                </a>
+                <a class="btn-icon"
+                    title="GitHub" 
+                    data-testid="SocialIcon" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    href="https://github.com/nguynninh" 
+                    aria-label="GitHub">
+                    <svg enable-background="new 0 0 24 24" 
+                        viewBox="0 0 24 24" 
+                        class="sc-gsFSXq lnKmot">
+                        <title data-testid="svgTitle" 
+                            id="title_0.2510052321361621">
+                                GitHub
+                        </title>
+                        <path d="M12,1.16A11,11,0,0,0,9.33,22.82a.46.46,0,0,0,.42-.09.48.48,0,0,0,.2-.4v-.1c0-.92,0-2.18,0-3.08a2,2,0,0,1,.53-1.59.49.49,0,0,0,.14-.52.49.49,0,0,0-.42-.35c-2.1-.24-4.25-1-4.25-4.75a3.65,3.65,0,0,1,.93-2.51A.52.52,0,0,0,7,8.91,3.31,3.31,0,0,1,7,6.77a4.87,4.87,0,0,1,2.18,1,.48.48,0,0,0,.42.07,8.93,8.93,0,0,1,4.88,0,.48.48,0,0,0,.42-.07,5.17,5.17,0,0,1,2.18-1,3.33,3.33,0,0,1,0,2.15.52.52,0,0,0,.09.52,3.65,3.65,0,0,1,.93,2.51c0,3.76-2.15,4.51-4.25,4.75a.49.49,0,0,0-.42.35.51.51,0,0,0,.14.52,2,2,0,0,1,.53,1.59c0,.93,0,2.27,0,3.18a.48.48,0,0,0,.2.4.46.46,0,0,0,.3.11l.13,0A11,11,0,0,0,12,1.16Zm3.06,20.51V19.15a3.79,3.79,0,0,0-.32-1.59c2-.39,4.32-1.55,4.32-5.62a4.63,4.63,0,0,0-1-2.95,4.69,4.69,0,0,0-.2-2.89.47.47,0,0,0-.31-.29c-.18-.06-1.14-.28-3.08,1a9.77,9.77,0,0,0-5,0c-1.94-1.3-2.9-1.08-3.08-1a.47.47,0,0,0-.31.29A4.69,4.69,0,0,0,5.93,9a4.63,4.63,0,0,0-1,2.95c0,4.07,2.27,5.23,4.32,5.62A3.71,3.71,0,0,0,9,18.86c-.78.26-1.29.22-1.51-.13C6.65,17.38,6,16.8,5.4,16.85a.5.5,0,0,0-.47.53.47.47,0,0,0,.52.46s.37.09,1.16,1.4A1.62,1.62,0,0,0,8.1,20a3.52,3.52,0,0,0,.84-.13v1.77a10,10,0,1,1,6.12,0Z"></path>
+                    </svg>
+                </a>
+                <a class="btn-icon"
+                    title="Email" 
+                    data-testid="SocialIcon" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    href="mailto:nguyenvanninh2004pt@gmail.com" 
+                    aria-label="Email">
+                    <svg enable-background="new 0 0 24 24" 
+                        viewBox="0 0 24 24" 
+                        class="sc-gKsewC khwrDj">
+                        <title data-testid="svgTitle" 
+                        id="title_0.08586253600054994">
+                            Email
+                        </title>
+                        <path d="M18.821,20.5H5.179A3.683,3.683,0,0,1,1.5,16.821V7.179A3.683,3.683,0,0,1,5.179,3.5H18.821A3.683,3.683,0,0,1,22.5,7.179v9.642A3.683,3.683,0,0,1,18.821,20.5ZM5.179,4.5A2.682,2.682,0,0,0,2.5,7.179v9.642A2.682,2.682,0,0,0,5.179,19.5H18.821A2.682,2.682,0,0,0,21.5,16.821V7.179A2.682,2.682,0,0,0,18.821,4.5Z"></path><path d="M12,14.209a.5.5,0,0,1-.346-.138L4.286,7.028a.5.5,0,0,1,.691-.723L12,13.018l7.023-6.713a.5.5,0,1,1,.691.723l-7.368,7.043A.5.5,0,0,1,12,14.209Z"></path>
+                        <path d="M4.7,17.833a.5.5,0,0,1-.347-.86l5.54-5.31a.5.5,0,0,1,.692.722L5.048,17.694A.5.5,0,0,1,4.7,17.833Z"></path>
+                        <path d="M19.3,17.832a.5.5,0,0,1-.346-.139l-5.538-5.308a.5.5,0,0,1,.692-.722l5.538,5.308a.5.5,0,0,1-.346.861Z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="shops">
+
+        </div>
+    </footer>
+
+    <div id="banks" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span class="close-btn" id="close-banks">&times;</span>
+            <div id="qr-bank">
+                <div class="qr-partner">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Logo_BIDV.svg/1024px-Logo_BIDV.svg.png"
+                        alt="Logo BIDV">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAY0AAAB/CAMAAAAkVG5FAAABIFBMVEX////tITIeQn6gLCJBQUHtHS/sABTsEScAKnP96+zzg4oANnjsAB3sABn5w8XuNkP709btJzfvSVTsByKjrsQAMnb2pKj0i5EALXQ8PDyaLSFoaGguLi4AJ3INOnrsAA/n5+e6wdKAjq3b29vCydfy9PdcXFyYAAD1mp81NTX3rbHsAABOZZP+9PXyeYDwWWImSILyb3fS1+L4vsHSJSy+KCj85uclJSX0kJXxYWqUoLr60NJCXI3j5u1vgKRjdp7eIy9QUFCpKyQ0UoettsnvQU0lR4HbAAuqGBDgRk7DJymYIBC/S0uxWlXbtrXGh4WUlJSMjIzOmJZ6enq5aWWysrLFxcWoOTLVp6asSEIRERHr0tHXq6pGX48AHG0AEGr51/TJAAAOmUlEQVR4nO1d+0PayBZO1CQoUlRA0QoRKq2K1Na3KNUqdu9t76O73d377N3//7+4eUAyZ3Jm5oQEsJLvFxGSgZwvc94z0bQMGTJkyJAhwzND5/x8cdq/IYOL872jgm2apl1cepFspJW9949WafVo46STzk+bObxYs0uG7sAwDKtg7Y0+0p5ulizDHchatt+vpPcTZwYra6ZLhaGfnp3dn52d3pWsk9FGOij5pA5g2e8z1RcPnSvbl+DZ1ta8C+fP2U/vRxnqqMBy4fFhXqb9e581TkzLU1GnPhUDbP3pz7FH6uiWHkVp9XoMv/qZ4tL2ZGZ8BmQ4+PKXmCN1DH5i+DDaCczQbGHJFJDh0PHXeEOtYTPDg7k0nh//3LDuk6HfRcmYn3/ztzhDXS6LyND1wsa4LuA5YcUeKJN7hAxndsQY6twWk6Hr9og+2kyhOND0p9jUcNj4O32oI6Ge8uguZZGgCgeFgazOUDIcXXVOHeqFKSPD8XTfjvNCngVWh06QgIwYhlzH/SlGV2VhoBwvCkNR4YoqhiHfKynI0K3MkMvxdqjqUY/Kxz1ppI7UhHswjDFfzRPE15cAX7Wd1y9f/swc4L47fB1EaxI2vvxC+dr3UhPuw5y9DOK3/U0G+z9rOxebmxevgs+/bjtvD14vhje0mI35NwRn6Fo9NXS9dDCeS37C+La5wMBlY3thYfPj8OOdC/ftwT8rgdkQhBv+5PhV/a1FlQl3MYOG49uFg21X5NvuK5+Nhe3fBh+/3GTYeBEGz5/FbMy/+Y/qSw8kUTjDxkhZ4R8aLQfaK4eB7VfeS5+NhW3/09+9f4ZsnIRClBiO+fl/KL6zQyJDt67GeeFPFx4bO/5rn41935AP1NjgMGZuyFTV/Jt/yr/uLcGEZ2x48NlYuHD//boP2AjthmJyyA25PEHFsDGj0XiEjc2Fzde+CWftBhskCHMjniGXpqvWKCbcQWlGqxwRNhzjvf27a8I3PTM+PA5kMyRsSA35SUEof4hCwlaUHxU8G/ueY/ub9+42w8YSq/AFaVwf/xJ/mUWcGro95qt+quDZ2PYsxr7r6bZYNq7ZvKvckAvTVRvKBNUAs2rEETY0z347xgOwEeZwXUgNuajutEg04bpuzqiiwtjwIg3HsYJsAJ0/kiGX15jY0R/Hf91PEwgb2uvNhf2vGscGl9KQerloeUJVY8qmBs7Gzr8v3GwhxwZM9yF9I+HkQOtOq1QTbh2N/aqfKjA2NDdNEmFDuwKaRjI3UEO+R8uJOLDJJd1nh1duFn3Hf+1m1LfDj1oXYUbdBbTCUi93PvI9HWqooVsz3FD16uPr1x93/Nc77uvwo5bz72v22EvWQ5V7uZG6E6XG5GM56xihwaIbck6kK2Tvdnl9Otf24wF6ubJCB193ItWYvFFXp3NpPyIegVClhhykqw7IVmN2vdv4WKEbclB3IvtTM+zdjgBgjOWG/L/hWUtkEz7D3u0IgI4qse5ErTHNtnc7CkCjIDFdRa0xId7tIubudhZVAGcpj1b2mbaOG+Vus9kt7x6PJrWxQacb8oHWOSEnqDjv9vzKNM01zqx3lkqmGsaweLhyRDi6cCVWkL3+h7lqtZKvO8hXqtWH5m5LLqGyDP3GcS+mxGWAspUZ8i+DupNgUVkUnHd70nbNjWED7XVeIhVJjOWiNz/W2ySTZbXxNSO97rtcvj4HUK/UbvsyCdXyMlQq1dz3bmpzDOgdQt3pklpj4rzb8/bgbZttPFT2twcCdr2z67b6QB9tZHb0b3IcEwEh1aZYnhX0HDhAtd5MZ4pAm6ysO9FrTAb0boMkpWGFb9Ka4zzY13EsVrTcWK7LxFrPHYr4ILDhDlC7TYUP0BMlj8h/4TO/MnC3Z6gRmR5p+mi6dal1yFMjUorv5/MqceYOcXHS2HAH+KCwQBRw6VipIe+QmqB96cEeKmZOLYcajJxh8cY7J/sPDhusH9Z7oIi0nusmYcMZoL6bnI51oC6khvzXR7L4CtCZXQwlOSIbG5SlIgHazHd3a0Rx5t8h04POxtxcDeUzHkAZTxZ0bN3RQw0ud5uYDdcnoB/OpmQOY8izFnWv4rAxV/mQmA2uxC0m45QsjUjuNikbltvq8II8OdqBbWq9wx0pAXLNRGykQQds/xD5VVuf493JabJhGV6EvWGTTjDawczs1WORgYgzHhtz1cTKiss84aYjxszQjTX+K5RsWAUxTPPtwAqdFG3mfeYmMpi37cfgG3q4K+XE4S5QovK3idiYqyUOBWFW1kBnB91mYLlbFRvW+xUx2NHOmffDFLRRZN5mElWouHNzt91yv1HufniIhOZzkdkB2cjVGOSqFYTQd0nZ0EpQ1Kv3HB9b93Qq0BUCSjZGSfcuMWygBxxGhVV9KDOOU6t/GA3Qq2V2jCogAwzf6jWa0aAyn1hX8UGxcTq/xXIRQ0vpEe/WxVTY6EYkVf0e0SPHh1X+KKBsJGx4aLzjtWF+hEuBiNhT4+7sfsvD/FkcJaXjyzWmwUYvx4u50sCGaURIY5WNig1Na3LfU5FmISnAgmxDX727u1slZ/aC05Dxp8EGr6fqD4LURY/3glllo2ZD63N0fB/hWiBipIwUMLF09hTY2OU0UF0ipAeOjlzIG5g4OBtaGc6uWuKEFT05q0DUu/WGnzwb3zn18yAZqcUdWw+DQMLc4KchrhBjgV64kAPvTJg8G8ec+qhKb9geN5HCyUFi4xgcVU8hXUVeOCaFYP3r5NloQuVTVdyvnLLJB14uiQ3tAbBxKzqMDvKiSikQ79bF5NmAN3v9UDXYDZwcgV6jsdEF3N+McDE86OlyMUSLkSfOxjEXQysrc5xmC06gsdEAQcenES6GB73XWQjUu3UxcTbgzUrRHdASB6qKxsYuIL8ywsVEQF8HIEJBtMHnxNmAiqdCqMpBgQb8jcLG3AgXE0EnRqkTBe7dulCyMcqmSTI2YL2PlKzgYo7BuzQ2+kBTyZxpOtR7FMphCzdpU7FhFNfEOLrE+wclbECPtU6qAUEvbOjj0tgA56pdBhriZkEgJPtQKesbhgylNrooR8IG1Bx5UuYInlMdpA5pbHwC5EcKiKOB3taJwRSvKktaibWxzfgkbEDNUSVVgFrAqxqYmhaJDY78suCwuKA3kEUh22onKRvGMjKohI0yZIOWOJoDIvXnE89Gr1ZnkfdHBsEfkXwC6MsBogKTbbSauGdkGfHWJGx0ARvEisMhcoNH5kYfWiTP9WrCEkcqDq4H4nZsCITerYvEbGATT8YGDB5o137LnjTIqkc1FTjKy7h0ubg/ed/IEMStCqMQe7cufkA2BHNDa8GJkO/dctWq1BSVxrce0iH2bl0kZgPbcSyJpmqyGJgVqKlwu+FgF+ZQIp0KaWSpApB3EAFQ7LKa2IpjS52TWPE+Y42HXSLAFovZ0D5Ie7RyKXTjhqDvrsNC4t26SMiG0cZmHt3DRXKGrOhzvm4he7gyMtJIp7Mg7zzFQLWRpDr6s8QoFXRUDZKjPyxNBXK2XioDlowGDKJsHEv6rCsprBtgMYKXq3yMgDIzsna5IcSeYA8AemYEK8axNttr80C1Gx79NYXLQZK3Goqvkgqpd+ti4jlcePdiDQpAzm4UB0O4QRcPDNCDWPydiIzE3TtRxHWr1JvlTTmjjgbjrN9Vb/K17YFlF7DRw3VVLXl/QhQx1uN5kHu3LibORhOvHQEAOfeAfxskGgVsIH2MbrP1eBagxwgEdNIzBCbOBlf+Qes/jSoQJTh+WIkVsaHd8G5uvZbGwj8M9PV9Lkz1Y7Im36UAQzR8cnCdCSyGBSMhG3zPT164qjY54rQelgjPSp48G1yIhloOsaca9H4K2eDThynVNFAs0kNA0kOyJs8Gp6rqaL5CGFUH3W1iNri2BnVXSgLQWw+V3q2LKXR+ck4oGiO3OHUTPVjCRgvynUbbjhDU1kPaVtBTYKPP2fE8Vq3u4mFcLbjRJWxoDfBZion0KKith2rv1sU0Vgx8ghKeqz8gykQxNaRsIKWOsYHWekh8QtY02NiNrKZBdkvg1xX4UyM0+VI2NIKnkBJorYfEh8BOZaXZbcRG5/NdXmLY2kDGHZazAQnHPYWUQGk9pHi3LqbCRgvxmPLV2z5QWNH1aKAdSs4Glz5MvgBTDELrIbu9kRTKHO7RwboQBwLTpFwTi8YTdXeJcrNbHk6SZoQzdvoo2OA8t/QzuCHUrYcF6jNH1fWNkgT2I7pER8mG1hCEd/V6vjp0gXgvF5amVGxwhNeJ8hgFqtZD+oNOktb+0BVTaja0srguFIRrcCFNBd7eKjY4Hzntyh8LVeshzbt1kbgujombwIbWF9IRmgfWFebLhEo2+M62tPoMEchbD2M8Hiv5jkjX0UEpbOAurC+4oeCBZ8TFiGo2uFLHGDMk8qIsIXc7RPJ+KqQvmsSG1nsQlU2DXAbr5XIxnJoNfslg8n1GhJA9g4ZswjXw9E2GjRhr2zBXeiNkQ2rAmgJtVRlqFeDlwuYrAhv8qqgxZnPXhEFHvMf4he4ZY5BjLKbC+nAPgkEVGYHeDa6uqpiXC3PjFDY4ryzdhiqIVYHErHgPjgu0CqtUYrRuYf1a4Y4DyidL7D5UkVAwFDyrzIDmp7ABi4jpN/Ew6BRROkrStltkmOGmS6BPjdy6ZaLLafYGbFKeLLF7m4vajyBXCxK+bIKDxAaXg5HtoZEYV2ZEvRs2LVnI4NxYdlcp2VDjrJmWdFWTD6stSMAstZ3TLZN2Z7TK3/ntvUIv96FaCfA/Nk/1R4XBH6Kh4X7eaez9KcRJCe4m5sh1lGfOrK+tPm7wbtjJVXFVheJbYVyz8rZYvKKUu3y0Gs2biiP3YA/0P4Y6vrfLgjmlASAa+Bjudh/JTaaKdaMwrD45t+JqDGfqCaJ33PAeD7B73Bur0MaI64010zZNu3B0SQ7AM4wTnXP0cSYZMmTIkCFDhgwZMmTIkCFDhgwZMmTIkCFDhgwZMmSYOP4PI46elIhBmf4AAAAASUVORK5CYII="
+                        alt="Logo VietQR">
+                </div>
+                <div class="qr-code">
+                    <img src="https://qr.sepay.vn/img?bank=BIDV&acc=2225125826&template=&amount=&des="
+                        alt="BIDV Nguyen Van Ninh">
+                </div>
+                <div class="qr-info">
+                    <div>
+                        <h2>Nguyễn Văn Ninh</h2>
+                        <p>STK: 2225125826</p>
+                        <p>BIDV - Chi nhánh Thanh Xuân</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="text-warning">
+                    <strong>Chú ý:</strong> 
+                    Vui lòng nhập đúng nội dung đơn hàng để tránh mất tiền và thời gian xử lý.
+                </p>
+            </div>
+            <div class="btn-convert">
+                <button id="convert-bank">
+                    <b><i>Thanh toán Momo</i></b>
+                </button>
+            </div>
+        </div>
     </div>
 
-    <h1 class="profile-name">Nguyễn Ninh (ko)</h1>
+    <div id="notis" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span class="close-btn" id="close-noti">&times;</span>
+            <h2>Thông báo</h2>
 
-    <p class="profile-bio">
-        Với 20 tuổi tràn đầy nhiệt huyết, tôi đang theo đuổi đam mê lập trình
-    </p>
+            <hr>
 
-    <div class="profile-socials">
-        <a class="btn-icon"
-           title="Facebook"
-           target="_blank"
-           rel="noopener noreferrer"
-           href="https://www.facebook.com/nguyenninh3324"
-           aria-label="Facebook">
-            <svg enable-background="new 0 0 24 24"
-                 viewBox="0 0 24 24"
-                 class="sc-gKsewC khwrDj">
-                <title data-testid="svgTitle"
-                       id="title_0.9886202279435055">
-                    Facebook
-                </title>
-                <path d="M23,12A11,11,0,1,0,10.279,22.865h0a11.08,11.08,0,0,0,3.436,0h0A10.952,10.952,0,0,0,23,12ZM10.859,21.935v-6.9a.5.5,0,0,0-.5-.5H8.193V12.5h2.166a.5.5,0,0,0,.5-.5V9.686c0-2.278,1.264-3.585,3.459-3.585a15.392,15.392,0,0,1,1.858.137V7.89h-.824l-.019,0a2,2,0,0,0-2.181,1.735,1.8,1.8,0,0,0-.011.4V12a.5.5,0,0,0,.5.5H15.97l-.312,2.035H13.641a.5.5,0,0,0-.5.5v6.9A10.124,10.124,0,0,1,10.859,21.935Zm3.282-.166V15.535h1.946a.5.5,0,0,0,.5-.425l.465-3.035a.5.5,0,0,0-.494-.575H14.141V10.016a1.267,1.267,0,0,1,.308-.821,1.218,1.218,0,0,1,.9-.3h1.324a.5.5,0,0,0,.5-.5V5.806a.5.5,0,0,0-.42-.494A16.661,16.661,0,0,0,14.325,5.1c-2.754,0-4.466,1.757-4.466,4.585V11.5H7.693a.5.5,0,0,0-.5.5v3.035a.5.5,0,0,0,.5.5H9.859v6.234a10,10,0,1,1,4.282,0Z"></path>
-            </svg>
-        </a>
-        <a class="btn-icon"
-           title="Instagram"
-           target="_blank"
-           rel="noopener noreferrer"
-           href="https://instagram.com/nguyenninhko"
-           aria-label="Instagram">
-            <svg enable-background="new 0 0 24 24"
-                 viewBox="0 0 24 24"
-                 class="sc-gKsewC khwrDj">
-                <title data-testid="svgTitle"
-                       id="title_0.41314096941005296">
-                    Instagram
-                </title>
-                <path d="M21.938,7.71a7.329,7.329,0,0,0-.456-2.394,4.615,4.615,0,0,0-1.1-1.694,4.61,4.61,0,0,0-1.7-1.1,7.318,7.318,0,0,0-2.393-.456C15.185,2.012,14.817,2,12,2s-3.185.012-4.29.062a7.329,7.329,0,0,0-2.394.456,4.615,4.615,0,0,0-1.694,1.1,4.61,4.61,0,0,0-1.1,1.7A7.318,7.318,0,0,0,2.062,7.71C2.012,8.814,2,9.182,2,12s.012,3.186.062,4.29a7.329,7.329,0,0,0,.456,2.394,4.615,4.615,0,0,0,1.1,1.694,4.61,4.61,0,0,0,1.7,1.1,7.318,7.318,0,0,0,2.393.456c1.1.05,1.472.062,4.29.062s3.186-.012,4.29-.062a7.329,7.329,0,0,0,2.394-.456,4.9,4.9,0,0,0,2.8-2.8,7.318,7.318,0,0,0,.456-2.393c.05-1.1.062-1.472.062-4.29S21.988,8.814,21.938,7.71Zm-1,8.534a6.351,6.351,0,0,1-.388,2.077,3.9,3.9,0,0,1-2.228,2.229,6.363,6.363,0,0,1-2.078.388C15.159,20.988,14.8,21,12,21s-3.159-.012-4.244-.062a6.351,6.351,0,0,1-2.077-.388,3.627,3.627,0,0,1-1.35-.879,3.631,3.631,0,0,1-.879-1.349,6.363,6.363,0,0,1-.388-2.078C3.012,15.159,3,14.8,3,12s.012-3.159.062-4.244A6.351,6.351,0,0,1,3.45,5.679a3.627,3.627,0,0,1,.879-1.35A3.631,3.631,0,0,1,5.678,3.45a6.363,6.363,0,0,1,2.078-.388C8.842,3.012,9.205,3,12,3s3.158.012,4.244.062a6.351,6.351,0,0,1,2.077.388,3.627,3.627,0,0,1,1.35.879,3.631,3.631,0,0,1,.879,1.349,6.363,6.363,0,0,1,.388,2.078C20.988,8.841,21,9.2,21,12S20.988,15.159,20.938,16.244Z"></path>
-                <path d="M17.581,5.467a.953.953,0,1,0,.952.952A.954.954,0,0,0,17.581,5.467Z"></path>
-                <path d="M12,7.073A4.927,4.927,0,1,0,16.927,12,4.932,4.932,0,0,0,12,7.073Zm0,8.854A3.927,3.927,0,1,1,15.927,12,3.932,3.932,0,0,1,12,15.927Z"></path>
-            </svg>
-        </a>
-        <a class="btn-icon"
-            title="Threads" 
-            data-testid="SocialIcon" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            href="https://www.threads.net/@nguyenninh.ko" 
-            aria-label="Threads">
-            <svg enable-background="new 0 0 24 24" 
-                viewBox="0 0 24 24" 
-                class="sc-gKsewC khwrDj">
-                <title data-testid="svgTitle" 
-                    id="title_0.10881557403003594">
-                    Threads
-                </title>
-                <path d="M7.4 3.7c-1.9 1.3-3.5 3.7-3.5 8s1.3 6.8 3 8.3c1.6 1.5 3.7 2 5.6 2 .8 0 2.7-.1 4.4-1 1.7-.7 3.1-2.1 3.1-4.6 0-1-.2-1.8-.6-2.4-.4-.6-1-1-1.6-1.4a6 6 0 0 0-.5-.3C17 15 16 16.3 15 17c-1 .6-2 .6-2.3.6-1.1 0-2.1-.2-2.9-.8a3 3 0 0 1-1.2-2.5c0-.9.2-1.5.6-2 .4-.5.9-.8 1.4-1 1-.5 2.2-.5 2.8-.5.8 0 1.8 0 2.8.3 0-1.6-.6-2.5-1.2-3-.7-.6-1.7-.7-2.3-.7-.7 0-1.2.1-1.6.3-.5.2-.9.5-1.4 1l-.3.3-.7-.6.3-.4c.6-.5 1-1 1.7-1.2.6-.3 1.2-.4 2-.4.7 0 2 .1 3 1 .9.7 1.5 2 1.5 4l1 .4c.7.4 1.4 1 2 1.8.4.8.7 1.7.7 3 0 2.9-1.7 4.5-3.6 5.4-2 1-4 1.1-4.9 1.1-2 0-4.4-.5-6.3-2.2-2-1.8-3.3-4.6-3.3-9.1C3 7 4.7 4.4 6.8 2.9c2.1-1.6 4.6-1.9 6-1.9 1.3 0 3 .1 4.7 1 1.7.9 3.3 2.6 4.4 5.6l.2.4-1 .4-.1-.5c-1-2.8-2.5-4.3-4-5a9.6 9.6 0 0 0-9.7.8Zm9 8.3-3-.3c-.4 0-1.4 0-2.3.4-.4.1-.8.4-1 .7-.3.3-.5.7-.5 1.4 0 .8.4 1.4.9 1.7a4 4 0 0 0 2.3.6c.3 0 1 0 1.8-.4.7-.5 1.5-1.5 1.7-4Z"></path>
-            </svg>
-        </a>
-        <a class="btn-icon"
-            title="TikTok" 
-            data-testid="SocialIcon" 
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://tiktok.com/@nguyenninh.ko" 
-            aria-label="TikTok">
-            <svg enable-background="new 0 0 24 24" 
-                viewBox="0 0 24 24" 
-                class="sc-gKsewC khwrDj">
-                <title data-testid="svgTitle" 
-                    id="title_0.10661870557275455">
-                    TikTok
-                </title>
-                <path d="M9.37,23.5a7.468,7.468,0,0,1,0-14.936.537.537,0,0,1,.538.5v3.8a.542.542,0,0,1-.5.5,2.671,2.671,0,1,0,2.645,2.669.432.432,0,0,1,0-.05V1a.5.5,0,0,1,.5-.5h3.787a.5.5,0,0,1,.5.5A4.759,4.759,0,0,0,21.59,5.76a.5.5,0,0,1,.5.5L22.1,10a.533.533,0,0,1-.519.515,9.427,9.427,0,0,1-4.741-1.268v6.789A7.476,7.476,0,0,1,9.37,23.5ZM8.908,9.585a6.466,6.466,0,1,0,6.93,6.447V8.326a.5.5,0,0,1,.791-.407A8.441,8.441,0,0,0,21.1,9.5l-.006-2.76A5.761,5.761,0,0,1,15.859,1.5H13.051V16.032a.458.458,0,0,1,0,.053,3.672,3.672,0,1,1-4.14-3.695Z"></path>
-            </svg>
-        </a>
-        <a class="btn-icon"
-            title="GitHub" 
-            data-testid="SocialIcon" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            href="https://github.com/nguynninh" 
-            aria-label="GitHub">
-            <svg enable-background="new 0 0 24 24" 
-                viewBox="0 0 24 24" 
-                class="sc-gsFSXq lnKmot">
-                <title data-testid="svgTitle" 
-                    id="title_0.2510052321361621">
-                        GitHub
-                </title>
-                <path d="M12,1.16A11,11,0,0,0,9.33,22.82a.46.46,0,0,0,.42-.09.48.48,0,0,0,.2-.4v-.1c0-.92,0-2.18,0-3.08a2,2,0,0,1,.53-1.59.49.49,0,0,0,.14-.52.49.49,0,0,0-.42-.35c-2.1-.24-4.25-1-4.25-4.75a3.65,3.65,0,0,1,.93-2.51A.52.52,0,0,0,7,8.91,3.31,3.31,0,0,1,7,6.77a4.87,4.87,0,0,1,2.18,1,.48.48,0,0,0,.42.07,8.93,8.93,0,0,1,4.88,0,.48.48,0,0,0,.42-.07,5.17,5.17,0,0,1,2.18-1,3.33,3.33,0,0,1,0,2.15.52.52,0,0,0,.09.52,3.65,3.65,0,0,1,.93,2.51c0,3.76-2.15,4.51-4.25,4.75a.49.49,0,0,0-.42.35.51.51,0,0,0,.14.52,2,2,0,0,1,.53,1.59c0,.93,0,2.27,0,3.18a.48.48,0,0,0,.2.4.46.46,0,0,0,.3.11l.13,0A11,11,0,0,0,12,1.16Zm3.06,20.51V19.15a3.79,3.79,0,0,0-.32-1.59c2-.39,4.32-1.55,4.32-5.62a4.63,4.63,0,0,0-1-2.95,4.69,4.69,0,0,0-.2-2.89.47.47,0,0,0-.31-.29c-.18-.06-1.14-.28-3.08,1a9.77,9.77,0,0,0-5,0c-1.94-1.3-2.9-1.08-3.08-1a.47.47,0,0,0-.31.29A4.69,4.69,0,0,0,5.93,9a4.63,4.63,0,0,0-1,2.95c0,4.07,2.27,5.23,4.32,5.62A3.71,3.71,0,0,0,9,18.86c-.78.26-1.29.22-1.51-.13C6.65,17.38,6,16.8,5.4,16.85a.5.5,0,0,0-.47.53.47.47,0,0,0,.52.46s.37.09,1.16,1.4A1.62,1.62,0,0,0,8.1,20a3.52,3.52,0,0,0,.84-.13v1.77a10,10,0,1,1,6.12,0Z"></path>
-            </svg>
-        </a>
-        <a class="btn-icon"
-            title="Email" 
-            data-testid="SocialIcon" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            href="mailto:nguyenvanninh2004pt@gmail.com" 
-            aria-label="Email">
-            <svg enable-background="new 0 0 24 24" 
-                viewBox="0 0 24 24" 
-                class="sc-gKsewC khwrDj">
-                <title data-testid="svgTitle" 
-                id="title_0.08586253600054994">
-                    Email
-                </title>
-                <path d="M18.821,20.5H5.179A3.683,3.683,0,0,1,1.5,16.821V7.179A3.683,3.683,0,0,1,5.179,3.5H18.821A3.683,3.683,0,0,1,22.5,7.179v9.642A3.683,3.683,0,0,1,18.821,20.5ZM5.179,4.5A2.682,2.682,0,0,0,2.5,7.179v9.642A2.682,2.682,0,0,0,5.179,19.5H18.821A2.682,2.682,0,0,0,21.5,16.821V7.179A2.682,2.682,0,0,0,18.821,4.5Z"></path><path d="M12,14.209a.5.5,0,0,1-.346-.138L4.286,7.028a.5.5,0,0,1,.691-.723L12,13.018l7.023-6.713a.5.5,0,1,1,.691.723l-7.368,7.043A.5.5,0,0,1,12,14.209Z"></path>
-                <path d="M4.7,17.833a.5.5,0,0,1-.347-.86l5.54-5.31a.5.5,0,0,1,.692.722L5.048,17.694A.5.5,0,0,1,4.7,17.833Z"></path>
-                <path d="M19.3,17.832a.5.5,0,0,1-.346-.139l-5.538-5.308a.5.5,0,0,1,.692-.722l5.538,5.308a.5.5,0,0,1-.346.861Z"></path>
-            </svg>
-        </a>
+            <div class="notification-list">
+                <div class="notification-item">
+                    <p>Chưa có thông báo nào</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    
+    <script src="script.js" defer></script>
 </body>
 </html>
