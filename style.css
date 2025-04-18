@@ -107,6 +107,7 @@ main {
     justify-content: center;
     padding: 100px;
     z-index: 9999;
+    overflow-y: auto;
 }
 
 .modal-content {
@@ -114,7 +115,10 @@ main {
     color: #333;
     padding: 20px 30px;
     border-radius: 10px;
-    width: 90%;
+    width: fit-content;
+    height: fit-content;
+    min-width: 100%;
+    min-height: 90%;
     max-width: 500px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     position: relative;
